@@ -1,0 +1,70 @@
+.banner11-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.banner11-max-width {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner11-container2 {
+  gap: var(--dl-space-space-halfunit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner11-link {
+  width: 143px;
+  height: 36px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.banner11-link:hover {
+  background-color: #000000;
+}
+.banner11-fragment1 {
+  display: contents;
+}
+.banner11-text2 {
+  display: inline-block;
+}
+.banner11-fragment2 {
+  display: contents;
+}
+.banner11-title2 {
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Fira Sans";
+  text-transform: inherit;
+}
+@media(max-width: 1600px) {
+  .banner11-title2 {
+    font-size: 40px;
+    font-family: Fira Sans;
+    text-transform: inherit;
+  }
+}
+@media(max-width: 767px) {
+  .banner11-title2 {
+    font-size: 32px;
+    text-align: center;
+    font-family: Fira Sans;
+    text-transform: inherit;
+  }
+}
+@media(max-width: 479px) {
+  .banner11-link {
+    background-color: var(--dl-color-theme-primary1);
+  }
+  .banner11-title2 {
+    width: 385px;
+    font-size: 28px;
+    text-align: center;
+    font-family: Fira Sans;
+    text-transform: inherit;
+  }
+}

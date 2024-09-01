@@ -1,0 +1,48 @@
+.banner1-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0);
+}
+.banner1-max-width {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-container2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-text1 {
+  display: none;
+  text-align: center;
+}
+.banner1-link {
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-family: "Arial";
+  text-decoration: none;
+}
+.banner1-link:hover {
+  background-color: #10100f;
+}
+.banner1-fragment {
+  display: contents;
+}
+.banner1-title2 {
+  display: inline-block;
+  font-family: "Fira Sans";
+}
+@media(max-width: 479px) {
+  .banner1-link {
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    font-family: Arial;
+    text-decoration: none;
+  }
+  .banner1-title2 {
+    font-family: Fira Sans;
+  }
+}
